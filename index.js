@@ -49,28 +49,28 @@ const people = [
 
 // EXERCISE 1
 // Change the value of the variable nameOfFirstPerson to equal the name of the first person.
-
-const nameOfFirstPerson = "change me";
+//PEOPLE IS THE VARIABLE NAME WHERE THE VALUE IS STORED,SQAURE BRACKETS IS THE ARRAY AND THE 0 IS ARRAY INDEX AND THE .NAME IS HOW WE PICK THE OBJECT NAME
+const nameOfFirstPerson = people[0].name;
 
 // EXERCISE 2
 // Change the value of the variable homersOtherFriends to equal the other friends of Homer.
 
-const homersOtherFriends = "change me";
+const homersOtherFriends = ["Barney Gumble", "Carl Carlson", "Lenny Leonard"];
 
 // EXERCISE 3
 // Change the value of the variable ageOfThirdPerson to equal the age of the third person.
 
-const ageOfThirdPerson = "change me";
+const ageOfThirdPerson = people[2].age;
 
 // EXERCISE 4
 // Change the value of the variable mothersNameOfSecondPerson to equal the mothers name of the second person.
 
-const mothersNameOfSecondPerson = "change me";
+const mothersNameOfSecondPerson = people[1].parents.mothersName;
 
 // EXERCISE 5
 // Change the value of the variable animaltypeOfLisasPet to equal the type of animal of Lisas pet.
 
-const animaltypeOfLisasPet = "change me";
+const animaltypeOfLisasPet = people[3].pet.animal;
 
 export {
   nameOfFirstPerson,
